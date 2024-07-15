@@ -1,5 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  // basePath: '/',
   output: 'export'
   // swcMinify: false,
   // Optional: Change links `/me` -> `/me/` and emit `/me.html` -> `/me/index.html`
