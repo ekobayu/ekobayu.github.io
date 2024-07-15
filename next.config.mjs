@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // basePath: '/',
+  basePath: '/ekobayu-profile.github.io/',
   output: 'export'
   // swcMinify: false,
   // Optional: Change links `/me` -> `/me/` and emit `/me.html` -> `/me/index.html`
