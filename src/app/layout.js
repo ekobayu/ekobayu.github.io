@@ -4,7 +4,7 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Nextjs Firebase',
+  title: 'Nextjs Firebase Home',
   description: 'Firebase and Nextjs Web Application'
 }
 export default function RootLayout({ children }) {
