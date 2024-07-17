@@ -1,0 +1,11 @@
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// Use mixins effectively
+.some-component {
+  @include flex-center;
+  // additional styles
+}
