@@ -30,7 +30,6 @@ export default async function Image() {
       >
         About Acme
       </div>
-      // ImageResponse options
     )
   )
 }
