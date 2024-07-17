@@ -8,7 +8,6 @@ export default function Home() {
   return (
     <div>
       <h1>Welcome to My Next.js App</h1>
-      <Link href='/work'>Work</Link>
       <AddItem />
       <ListItems />
     </div>
