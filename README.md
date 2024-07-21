@@ -5,11 +5,9 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 First, run the development server:
 
 ```bash
-npm install
+npm install / yarn install
 add file .env.local
-npm run dev
-# or
-yarn dev
+npm run dev / yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
