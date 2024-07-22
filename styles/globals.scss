@@ -17,18 +17,30 @@
 // }
 
 body {
-  color: $primary-color;
-  background: $secondary-color;
+  color: $secondary-color;
+  background: $primary-color;
 }
 
 h1 {
   font-family: $primary-font;
   font-size: 76px;
+  line-height: 80px;
+  @media (max-width: 768px) {
+    font-size: 36px;
+    line-height: 40px;
+  }
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+.react-fullpage__wrapper {
+  top: -66px;
+}
+
+.section-1 {
+  .container {
+    margin-top: 20%;
+    h1 {
+      margin-bottom: 30px;
+    }
   }
 }
 
