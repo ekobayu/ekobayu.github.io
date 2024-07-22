@@ -1,6 +1,7 @@
-.wrapper {
-  padding: 10px;
-  .hello {
-    padding: 0;
+.wrapperHeader {
+  position: relative;
+  z-index: 1;
+  .menuItem {
+    color: $secondary-color;
   }
 }

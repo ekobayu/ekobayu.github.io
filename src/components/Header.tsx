@@ -1,26 +1,29 @@
 'use client'
 
 import Link from 'next/link'
+import Image from 'next/image'
 import { Navbar } from 'flowbite-react'
 
+import logo from '../assets/logo.svg'
 import styles from '../../styles/components/Header.module.scss'
 
 export default function Header() {
   return (
-    <Navbar fluid rounded>
+    <Navbar className={`${styles.wrapperHeader} bg-transparent`}>
       <Navbar.Brand as={Link} href='https://flowbite-react.com'>
-        <img src='/favicon.ico' className='mr-3 h-6 sm:h-9' alt='Flowbite React Logo' />
-        <span className='self-center whitespace-nowrap text-xl font-semibold'>Flowbite React</span>
+        <Image priority src={logo} alt='Eko Bayu Front End Web Developer' />
       </Navbar.Brand>
       <Navbar.Toggle />
       <Navbar.Collapse>
-        <Navbar.Link href='/' active>
+        <Navbar.Link href='/' active className={`${styles.menuItem}`}>
           Home
         </Navbar.Link>
-        <Navbar.Link as={Link} href='/work'>
+        <Navbar.Link as={Link} href='/work' className={`${styles.menuItem}`}>
           Work
         </Navbar.Link>
-        <Navbar.Link href='/contact'>Contact</Navbar.Link>
+        <Navbar.Link href='/contact' className={`${styles.menuItem}`}>
+          Contact
+        </Navbar.Link>
       </Navbar.Collapse>
     </Navbar>
   )
