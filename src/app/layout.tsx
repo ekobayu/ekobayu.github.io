@@ -12,7 +12,7 @@ const plusJakartaSans = Plus_Jakarta_Sans({
 })
 
 export const metadata = {
-  title: 'Nextjs Firebase Home',
+  title: 'Eko Bayu - Frontend Developer and SEO Specialist',
   description: 'Firebase and Nextjs Web Application'
 }
 

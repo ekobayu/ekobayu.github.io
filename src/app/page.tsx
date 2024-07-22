@@ -4,8 +4,8 @@ import { FullpageContainer, FullpageSection } from '@shinyongjun/react-fullpage'
 import '@shinyongjun/react-fullpage/css'
 import bgLine from '../assets/bg-line.svg'
 
-// import AddItem from '../components/AddItem'
-// import ListItems from '../components/ListItems'
+import AddItem from '../components/AddItem'
+import ListItems from '../components/ListItems'
 
 export default function Home() {
   const [activeIndex, setActiveIndex] = useState<number>(0)
@@ -30,10 +30,11 @@ export default function Home() {
                   aperiam repellat error ut quibusdam!
                 </p>
               </div>
-              <div>09</div>
+              <div>
+                <AddItem />
+                <ListItems />
+              </div>
             </div>
-            {/* <AddItem />
-            <ListItems /> */}
           </div>
         </div>
       </FullpageSection>
