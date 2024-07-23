@@ -41,7 +41,7 @@ export default function Home() {
       </FullpageSection>
       <FullpageSection>
         <div className='section-2 w-full'>
-          <div className='container mx-auto md:mx-24 px-5 md:px-0 my-32 md:my-60'>
+          <div className='container mx-auto md:mx-24 px-5 md:px-0 my-32 md:my-52'>
             <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
               <div>
                 <p className='sub-heading'>My Skill</p>
