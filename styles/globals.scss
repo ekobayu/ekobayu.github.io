@@ -30,17 +30,38 @@ h1 {
     line-height: 40px;
   }
 }
-
+ul {
+  li {
+    color: $secondary-color;
+  }
+}
 .react-fullpage__wrapper {
   top: -66px;
 }
 
 .section-1 {
   .container {
-    margin-top: 20%;
     h1 {
       margin-bottom: 30px;
     }
+  }
+}
+
+.section-2 {
+  h3 {
+    font-family: $primary-font;
+    font-size: 76px;
+    line-height: 80px;
+    margin-bottom: 40px;
+    @media (max-width: 768px) {
+      font-size: 36px;
+      line-height: 40px;
+    }
+  }
+  p.sub-heading,
+  h2.sub-heading {
+    font-size: 32px;
+    margin-bottom: 40px;
   }
 }
 
