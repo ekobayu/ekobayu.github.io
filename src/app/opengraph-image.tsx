@@ -16,7 +16,6 @@ export const contentType = 'image/png'
 export default async function Image() {
   return new ImageResponse(
     (
-      // ImageResponse JSX element
       <div
         style={{
           fontSize: 128,
@@ -28,7 +27,7 @@ export default async function Image() {
           justifyContent: 'center'
         }}
       >
-        About Acme
+        About Eko Bayu
       </div>
     )
   )

@@ -13,7 +13,8 @@ const plusJakartaSans = Plus_Jakarta_Sans({
 
 export const metadata = {
   title: 'Eko Bayu - Frontend Developer and SEO Specialist',
-  description: 'Firebase and Nextjs Web Application'
+  description:
+    'A results-driven individual with expertise in both front-end development and SEO, passionate about creating exceptional online experiences that drive traffic.'
 }
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
