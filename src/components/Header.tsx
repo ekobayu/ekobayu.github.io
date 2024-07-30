@@ -15,13 +15,13 @@ export default function Header() {
       </Navbar.Brand>
       <Navbar.Toggle />
       <Navbar.Collapse>
-        <Navbar.Link href='/' active className={`${styles.menuItem}`}>
+        <Navbar.Link href='#home' active className={`${styles.menuItem}`}>
           Home
         </Navbar.Link>
-        <Navbar.Link as={Link} href='/work' className={`${styles.menuItem}`}>
+        <Navbar.Link href='#work' className={`${styles.menuItem}`}>
           Work
         </Navbar.Link>
-        <Navbar.Link href='/contact' className={`${styles.menuItem}`}>
+        <Navbar.Link href='#contact' className={`${styles.menuItem}`}>
           Contact
         </Navbar.Link>
       </Navbar.Collapse>

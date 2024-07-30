@@ -16,9 +16,15 @@
 //   }
 // }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   color: $secondary-color;
   background: $primary-color;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
 }
 
 h1 {
@@ -80,8 +86,11 @@ ul {
 footer {
   h3 {
     font-family: $primary-font;
-    font-size: 37px;
+    font-size: 76px;
     margin-bottom: 5px;
+    @media (max-width: 768px) {
+      font-size: 36px;
+    }
   }
   p {
     margin-bottom: 20px;

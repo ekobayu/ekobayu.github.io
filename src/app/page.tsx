@@ -16,6 +16,7 @@ export default function Home() {
     <FullpageContainer activeIndex={activeIndex} setActiveIndex={setActiveIndex}>
       <FullpageSection>
         <div
+          id='home'
           className='section-1'
           style={{
             backgroundImage: `url(${bgLine.src})`,
@@ -41,7 +42,7 @@ export default function Home() {
         </div>
       </FullpageSection>
       <FullpageSection>
-        <div className='section-2 w-full'>
+        <div id='about' className='section-2 w-full'>
           <div className='container mx-auto md:mx-24 px-5 md:px-0 my-32 md:my-52'>
             <div className='grid grid-cols-1 md:grid-cols-2 gap-20'>
               <div>
@@ -73,7 +74,7 @@ export default function Home() {
         </div>
       </FullpageSection>
       <FullpageSection>
-        <div className='section-3 w-full'>
+        <div id='work' className='section-3 w-full'>
           <div className='container mx-auto md:mx-24 px-5 md:px-0 my-32'>
             <div className='grid grid-cols-1 md:grid-cols-2 gap-20'>
               <div>
@@ -127,7 +128,7 @@ export default function Home() {
         </div>
       </FullpageSection>
       <FullpageSection>
-        <footer className='section-2 w-full'>
+        <footer id='contact' className='section-4 w-full'>
           <div className='container mx-auto md:mx-24 px-5 md:px-0 my-32 md:my-52'>
             <div className='grid grid-cols-1 md:grid-cols-2 gap-20'>
               <div></div>
@@ -137,7 +138,7 @@ export default function Home() {
                   Got a question or proposal,<br></br> or just want to say hello? Go ahead.
                 </p>
                 <p>
-                  On the Internet:
+                  On the Internet:<br></br>
                   <Link href='https://id.linkedin.com/in/ekobayu'> LinkedIn</Link> /
                   <Link href='https://t.me/ekobayu'> Telegram</Link> /<Link href='https://x.com/ekobayu_'> X</Link> /
                   <Link href='https://github.com/ekobayu'> Github</Link>
