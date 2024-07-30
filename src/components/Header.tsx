@@ -10,7 +10,7 @@ import styles from '../../styles/components/Header.module.scss'
 export default function Header() {
   return (
     <Navbar className={`${styles.wrapperHeader} bg-transparent`}>
-      <Navbar.Brand as={Link} href='https://flowbite-react.com'>
+      <Navbar.Brand as={Link} href='https://ekobayu.github.io'>
         <Image priority src={logo} alt='Eko Bayu Front End Web Developer' />
       </Navbar.Brand>
       <Navbar.Toggle />

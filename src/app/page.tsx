@@ -2,6 +2,7 @@
 import { useState } from 'react'
 import { FullpageContainer, FullpageSection } from '@shinyongjun/react-fullpage'
 import { List } from 'flowbite-react'
+import Link from 'next/link'
 
 import '@shinyongjun/react-fullpage/css'
 import bgLine from '../assets/bg-line.svg'
@@ -42,7 +43,7 @@ export default function Home() {
       <FullpageSection>
         <div className='section-2 w-full'>
           <div className='container mx-auto md:mx-24 px-5 md:px-0 my-32 md:my-52'>
-            <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
+            <div className='grid grid-cols-1 md:grid-cols-2 gap-20'>
               <div>
                 <p className='sub-heading'>My Skill</p>
                 <List unstyled>
@@ -72,10 +73,79 @@ export default function Home() {
         </div>
       </FullpageSection>
       <FullpageSection>
-        <div>Section 3</div>
+        <div className='section-3 w-full'>
+          <div className='container mx-auto md:mx-24 px-5 md:px-0 my-32'>
+            <div className='grid grid-cols-1 md:grid-cols-2 gap-20'>
+              <div>
+                <p className='sub-heading'>Work</p>
+                <p>
+                  I'm a SEO Specialist and Front-End Developer who builds beautiful, high-performing websites that rank.
+                  I combine technical SEO expertise with front-end development skills to craft engaging user experiences
+                  that drive organic traffic and conversions. Check out my portfolio to see how I can help your business
+                  succeed online!
+                </p>
+              </div>
+
+              <div>
+                <div className='work-item mb-5'>
+                  <Link href='https://myeducationrepublic.com'>
+                    <h3>Education Republic</h3>
+                  </Link>
+                  <p>Web Development</p>
+                </div>
+
+                <div className='work-item mb-5'>
+                  <Link href='https://soluplus.id'>
+                    <h3>Soluplus</h3>
+                  </Link>
+                  <p>Web Development</p>
+                </div>
+
+                <div className='work-item mb-5'>
+                  <Link href='https://proconsult.id'>
+                    <h3>Proconsult</h3>
+                  </Link>
+                  <p>Search Engine Optimization</p>
+                </div>
+
+                <div className='work-item mb-5'>
+                  <Link href='https://duality-studio.com'>
+                    <h3>Duality Studio</h3>
+                  </Link>
+                  <p>Search Engine Optimization</p>
+                </div>
+
+                <div className='work-item mb-5'>
+                  <Link href='https://teamguan.com'>
+                    <h3>Teamguan</h3>
+                  </Link>
+                  <p>Web Development</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </FullpageSection>
-      <FullpageSection isAutoHeight>
-        <footer>Footer</footer>
+      <FullpageSection>
+        <footer className='section-2 w-full'>
+          <div className='container mx-auto md:mx-24 px-5 md:px-0 my-32 md:my-52'>
+            <div className='grid grid-cols-1 md:grid-cols-2 gap-20'>
+              <div></div>
+              <div>
+                <h3>Contact</h3>
+                <p>
+                  Got a question or proposal,<br></br> or just want to say hello? Go ahead.
+                </p>
+                <p>
+                  On the Internet:
+                  <Link href='https://id.linkedin.com/in/ekobayu'> LinkedIn</Link> /
+                  <Link href='https://t.me/ekobayu'> Telegram</Link> /<Link href='https://x.com/ekobayu_'> X</Link> /
+                  <Link href='https://github.com/ekobayu'> Github</Link>
+                </p>
+              </div>
+            </div>
+          </div>
+        </footer>
       </FullpageSection>
     </FullpageContainer>
   )
