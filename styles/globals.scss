@@ -50,6 +50,17 @@ ul {
     h1 {
       margin-bottom: 30px;
     }
+    .profile-img {
+      position: relative;
+      top: -150px;
+      width: 515px;
+      height: 515px;
+      @media (max-width: 768px) {
+        top: auto;
+        width: 315px;
+        height: 315px;
+      }
+    }
   }
 }
 

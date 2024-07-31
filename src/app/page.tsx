@@ -3,9 +3,12 @@ import { useState } from 'react'
 import { FullpageContainer, FullpageSection } from '@shinyongjun/react-fullpage'
 import { List } from 'flowbite-react'
 import Link from 'next/link'
+import Image from 'next/image'
 
 import '@shinyongjun/react-fullpage/css'
 import bgLine from '../assets/bg-line.svg'
+import profileRectangle from '../assets/profile-rectangle.svg'
+import { profileImg } from '../assets/profile.js'
 
 // import AddItem from '../components/AddItem'
 // import ListItems from '../components/ListItems'
@@ -24,7 +27,7 @@ export default function Home() {
             minHeight: '500px'
           }}
         >
-          <div className='container mx-auto px-5 md:px-0 my-32 md:my-60'>
+          <div className='container mx-auto px-5 md:px-0 mt-32 md:mt-60'>
             <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
               <div>
                 <h1>Frontend Developer</h1>
@@ -33,10 +36,22 @@ export default function Home() {
                   creating exceptional online experiences that drive traffic and engagement.
                 </p>
               </div>
-              <div>
-                {/* <AddItem />
-                <ListItems /> */}
+              <div
+                className='flex items-center justify-center profile-img md:mt-0 mx-auto mt-10'
+                style={{
+                  backgroundImage: `url(${profileRectangle.src})`
+                }}
+              >
+                <Image
+                  width={250}
+                  height={250}
+                  // sizes='(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw'
+                  src={profileImg}
+                  alt='Web Developer Bali'
+                />
               </div>
+              {/* <AddItem />
+                <ListItems /> */}
             </div>
           </div>
         </div>
