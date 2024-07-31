@@ -16,8 +16,10 @@
 //   }
 // }
 
-html {
-  scroll-behavior: smooth;
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
 }
 
 body {

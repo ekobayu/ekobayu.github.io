@@ -18,6 +18,9 @@ export default function Header() {
         <Navbar.Link href='#home' active className={`${styles.menuItem}`}>
           Home
         </Navbar.Link>
+        <Navbar.Link href='#about' className={`${styles.menuItem}`}>
+          About
+        </Navbar.Link>
         <Navbar.Link href='#work' className={`${styles.menuItem}`}>
           Work
         </Navbar.Link>

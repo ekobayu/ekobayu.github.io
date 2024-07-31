@@ -42,13 +42,13 @@ export default function Home() {
                   backgroundImage: `url(${profileRectangle.src})`
                 }}
               >
-                <Image
+                {/* <Image
                   width={250}
                   height={250}
                   // sizes='(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw'
                   src={profileImg}
                   alt='Web Developer Bali'
-                />
+                /> */}
               </div>
               {/* <AddItem />
                 <ListItems /> */}
