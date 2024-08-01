@@ -4,3 +4,13 @@ $primary-color: #0077b6;
 $secondary-color: #fff;
 $primary-font: 'Major Mono Display', monospace;
 $secondary-font: 'Plus Jakarta Sans', sans-serif;
+
+// water drop
+$startPosX: 120%;
+$startPosY: -800%;
+
+// circle animate
+$size: 150px;
+$d: $size * 0.5;
+$ang: 0.7071;
+$a: $d * $ang;

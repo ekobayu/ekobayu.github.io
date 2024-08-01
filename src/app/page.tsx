@@ -30,7 +30,10 @@ export default function Home() {
           <div className='container mx-auto px-5 md:px-0 mt-32 md:mt-60'>
             <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
               <div>
-                <h1>Frontend Developer</h1>
+                <div className='main-title'>
+                  <h1>Frontend Developer</h1>
+                  <div className='drop'></div>
+                </div>
                 <p>
                   A results-driven individual with expertise in both front-end development and SEO, passionate about
                   creating exceptional online experiences that drive traffic and engagement.
