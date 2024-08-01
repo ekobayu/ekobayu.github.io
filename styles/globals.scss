@@ -191,6 +191,18 @@ footer {
       &:nth-child(4) {
         transform: translate(0, $d * -1);
       }
+      &:nth-child(5) {
+        transform: translate($a, $a);
+      }
+      &:nth-child(6) {
+        transform: translate($a, -$a);
+      }
+      &:nth-child(7) {
+        transform: translate(-$a, $a);
+      }
+      &:nth-child(8) {
+        transform: translate(-$a, -$a);
+      }
     }
     .base:nth-child(2) {
       transform: rotate(0.1turn);
