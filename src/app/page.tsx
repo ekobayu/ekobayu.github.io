@@ -146,7 +146,88 @@ export default function Home() {
         <footer id='contact' className='section-4 w-full'>
           <div className='container mx-auto md:mx-24 px-5 md:px-0 my-32 md:my-52'>
             <div className='grid grid-cols-1 md:grid-cols-2 gap-20'>
-              <div></div>
+              <div className='wrapper-circle'>
+                <div className='base'>
+                  <div className='circ'></div>
+                  <div className='circ'></div>
+                  <div className='circ'></div>
+                  <div className='circ'></div>
+                  <div className='circ'></div>
+                  <div className='circ'></div>
+                  <div className='circ'></div>
+                  <div className='circ'></div>
+                </div>
+                <div className='base'>
+                  <div className='circ'></div>
+                  <div className='circ'></div>
+                  <div className='circ'></div>
+                  <div className='circ'></div>
+                  <div className='circ'></div>
+                  <div className='circ'></div>
+                  <div className='circ'></div>
+                  <div className='circ'></div>
+                </div>
+                <div className='base'>
+                  <div className='circ'></div>
+                  <div className='circ'></div>
+                  <div className='circ'></div>
+                  <div className='circ'></div>
+                  <div className='circ'></div>
+                  <div className='circ'></div>
+                  <div className='circ'></div>
+                  <div className='circ'></div>
+                </div>
+                <div className='base'>
+                  <div className='circ'></div>
+                  <div className='circ'></div>
+                  <div className='circ'></div>
+                  <div className='circ'></div>
+                  <div className='circ'></div>
+                  <div className='circ'></div>
+                  <div className='circ'></div>
+                  <div className='circ'></div>
+                </div>
+                <div className='base'>
+                  <div className='circ'></div>
+                  <div className='circ'></div>
+                  <div className='circ'></div>
+                  <div className='circ'></div>
+                  <div className='circ'></div>
+                  <div className='circ'></div>
+                  <div className='circ'></div>
+                  <div className='circ'></div>
+                </div>
+                <div className='base'>
+                  <div className='circ'></div>
+                  <div className='circ'></div>
+                  <div className='circ'></div>
+                  <div className='circ'></div>
+                  <div className='circ'></div>
+                  <div className='circ'></div>
+                  <div className='circ'></div>
+                  <div className='circ'></div>
+                </div>
+                <div className='base'>
+                  <div className='circ'></div>
+                  <div className='circ'></div>
+                  <div className='circ'></div>
+                  <div className='circ'></div>
+                  <div className='circ'></div>
+                  <div className='circ'></div>
+                  <div className='circ'></div>
+                  <div className='circ'></div>
+                </div>
+                <div className='base'>
+                  <div className='circ'></div>
+                  <div className='circ'></div>
+                  <div className='circ'></div>
+                  <div className='circ'></div>
+                  <div className='circ'></div>
+                  <div className='circ'></div>
+                  <div className='circ'></div>
+                  <div className='circ'></div>
+                </div>
+              </div>
               <div>
                 <h3>Contact</h3>
                 <p>
@@ -155,8 +236,7 @@ export default function Home() {
                 <p>
                   On the Internet:<br></br>
                   <Link href='https://id.linkedin.com/in/ekobayu'> LinkedIn</Link> /
-                  <Link href='https://t.me/ekobayu'> Telegram</Link> /<Link href='https://x.com/ekobayu_'> X</Link> /
-                  <Link href='https://github.com/ekobayu'> Github</Link>
+                  <Link href='https://x.com/ekobayu_'> X</Link> /<Link href='https://github.com/ekobayu'> Github</Link>
                 </p>
               </div>
             </div>

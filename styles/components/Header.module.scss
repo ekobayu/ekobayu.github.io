@@ -9,5 +9,8 @@
   }
   .menuItem {
     color: $secondary-color;
+    &:hover {
+      color: $secondary-color;
+    }
   }
 }
