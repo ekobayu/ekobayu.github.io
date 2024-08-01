@@ -187,46 +187,6 @@ export default function Home() {
                   <div className='circ'></div>
                   <div className='circ'></div>
                 </div>
-                <div className='base'>
-                  <div className='circ'></div>
-                  <div className='circ'></div>
-                  <div className='circ'></div>
-                  <div className='circ'></div>
-                  <div className='circ'></div>
-                  <div className='circ'></div>
-                  <div className='circ'></div>
-                  <div className='circ'></div>
-                </div>
-                <div className='base'>
-                  <div className='circ'></div>
-                  <div className='circ'></div>
-                  <div className='circ'></div>
-                  <div className='circ'></div>
-                  <div className='circ'></div>
-                  <div className='circ'></div>
-                  <div className='circ'></div>
-                  <div className='circ'></div>
-                </div>
-                <div className='base'>
-                  <div className='circ'></div>
-                  <div className='circ'></div>
-                  <div className='circ'></div>
-                  <div className='circ'></div>
-                  <div className='circ'></div>
-                  <div className='circ'></div>
-                  <div className='circ'></div>
-                  <div className='circ'></div>
-                </div>
-                <div className='base'>
-                  <div className='circ'></div>
-                  <div className='circ'></div>
-                  <div className='circ'></div>
-                  <div className='circ'></div>
-                  <div className='circ'></div>
-                  <div className='circ'></div>
-                  <div className='circ'></div>
-                  <div className='circ'></div>
-                </div>
               </div>
               <div>
                 <h3>Contact</h3>
