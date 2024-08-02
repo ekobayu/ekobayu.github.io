@@ -146,8 +146,32 @@ footer {
   }
   p {
     margin-bottom: 20px;
+    span {
+      margin: auto 6px;
+    }
     a {
-      text-decoration: underline;
+      display: inline-block;
+      position: relative;
+      color: $secondary-color;
+      &:after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        transform: scaleX(0);
+        height: 2px;
+        bottom: -3px;
+        left: 0;
+        background-color: $secondary-color;
+        transform-origin: bottom right;
+        transition: transform 0.25s ease-out;
+      }
+      &:hover {
+        color: $secondary-color;
+        &:after {
+          transform: scaleX(1);
+          transform-origin: bottom left;
+        }
+      }
     }
   }
   .wrapper-circle {

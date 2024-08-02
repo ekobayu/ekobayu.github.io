@@ -27,7 +27,7 @@ export default function Home() {
             minHeight: '500px'
           }}
         >
-          <div className='container mx-auto px-5 md:px-0 mt-32 md:mt-60'>
+          <div className='container mx-auto px-5 md:px-0 mt-34 md:mt-60'>
             <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
               <div>
                 <div className='main-title'>
@@ -61,7 +61,7 @@ export default function Home() {
       </FullpageSection>
       <FullpageSection>
         <div id='about' className='section-2 w-full'>
-          <div className='container mx-auto md:mx-24 px-5 md:px-0 my-32 md:my-52'>
+          <div className='container mx-auto md:mx-24 px-5 md:px-0 my-32 md:my-48'>
             <div className='grid grid-cols-1 md:grid-cols-2 gap-20'>
               <div>
                 <p className='sub-heading'>My Skill</p>
@@ -198,8 +198,9 @@ export default function Home() {
                 </p>
                 <p>
                   On the Internet:<br></br>
-                  <Link href='https://id.linkedin.com/in/ekobayu'> LinkedIn</Link> /
-                  <Link href='https://x.com/ekobayu_'> X</Link> /<Link href='https://github.com/ekobayu'> Github</Link>
+                  <Link href='https://id.linkedin.com/in/ekobayu'> LinkedIn</Link> <span>/</span>
+                  <Link href='https://x.com/ekobayu_'> X </Link> <span>/</span>
+                  <Link href='https://github.com/ekobayu'> Github</Link>
                 </p>
               </div>
             </div>
