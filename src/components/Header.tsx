@@ -15,16 +15,16 @@ export default function Header() {
       </Navbar.Brand>
       <Navbar.Toggle />
       <Navbar.Collapse className={`${styles.menuCollapse}`}>
-        <Navbar.Link href='#home' className={`${styles.menuItem}`}>
+        <Navbar.Link href='#home' className={`${styles.menuItem} text-2xl mb-4 lg:mb-0`}>
           Home
         </Navbar.Link>
-        <Navbar.Link href='#about' className={`${styles.menuItem}`}>
+        <Navbar.Link href='#about' className={`${styles.menuItem} text-2xl mb-4 lg:mb-0`}>
           About
         </Navbar.Link>
-        <Navbar.Link href='#work' className={`${styles.menuItem}`}>
+        <Navbar.Link href='#work' className={`${styles.menuItem} text-2xl mb-4 lg:mb-0`}>
           Work
         </Navbar.Link>
-        <Navbar.Link href='#contact' className={`${styles.menuItem}`}>
+        <Navbar.Link href='#contact' className={`${styles.menuItem} text-2xl mb-4 lg:mb-0`}>
           Contact
         </Navbar.Link>
       </Navbar.Collapse>

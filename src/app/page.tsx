@@ -8,6 +8,7 @@ import Image from 'next/image'
 import '@shinyongjun/react-fullpage/css'
 import bgLine from '../assets/bg-line.svg'
 import profileRectangle from '../assets/profile-rectangle.svg'
+import nextLogo from '../assets/next.svg'
 import { profileImg } from '../assets/profile.js'
 
 // import AddItem from '../components/AddItem'
@@ -28,7 +29,7 @@ export default function Home() {
             minHeight: '500px'
           }}
         >
-          <div className='container mx-auto px-5 lg:px-0 mt-32 lg:mt-60'>
+          <div className='container mx-auto px-5 lg:px-0 mt-32 lg:mt-96'>
             <div className='grid grid-cols-1 lg:grid-cols-2 gap-4'>
               <div>
                 <div className='main-title'>
@@ -62,13 +63,15 @@ export default function Home() {
       </FullpageSection>
       <FullpageSection>
         <div id='about' className='section-2 w-full'>
-          <div className='container mx-auto lg:mx-24 px-5 lg:px-0 my-32 lg:my-42'>
+          <div className='container mx-auto lg:mx-24 px-5 lg:px-0 my-32 lg:my-72'>
             <div className='grid grid-cols-1 lg:grid-cols-2 gap-20'>
               <div>
                 <p className='sub-heading'>Skill</p>
                 <List unstyled className='list-skill'>
                   <List.Item>HTML</List.Item>
                   <List.Item>CSS</List.Item>
+                  <List.Item>Figma</List.Item>
+                  <List.Item>Adobe Photoshop</List.Item>
                   <List.Item>Jquery</List.Item>
                   <List.Item>VueJs</List.Item>
                   <List.Item>ReactJs</List.Item>
@@ -98,7 +101,7 @@ export default function Home() {
       </FullpageSection>
       <FullpageSection>
         <div id='work' className='section-3 w-full'>
-          <div className='container mx-auto lg:mx-24 px-5 lg:px-0 my-32'>
+          <div className='container mx-auto lg:mx-24 px-5 lg:px-0 my-32 lg:my-64'>
             <div className='grid grid-cols-1 lg:grid-cols-2 gap-20'>
               <div>
                 <p className='sub-heading'>Selected Work</p>
@@ -152,7 +155,7 @@ export default function Home() {
       </FullpageSection>
       <FullpageSection>
         <footer id='contact' className='section-4 w-full'>
-          <div className='container mx-auto lg:mx-24 px-5 lg:px-0 my-32 lg:my-52'>
+          <div className='container mx-auto lg:mx-24 px-5 lg:px-0 my-32 lg:my-72'>
             <div className='grid grid-cols-1 lg:grid-cols-2 gap-20'>
               <div className='wrapper-circle'>
                 <div className='base'>
@@ -214,6 +217,14 @@ export default function Home() {
                   <Link href='https://x.com/ekobayu_'> X </Link> <span>/</span>
                   <Link href='https://github.com/ekobayu'> Github</Link>
                 </p>
+              </div>
+            </div>
+
+            <div className='grid grid-cols-1 gap-10'>
+              <div className='made-by-next absolute inset-x-0 bottom-0 h-16'>
+                <a href='https://nextjs.org/'>
+                  Made With <Image width={100} height={24} src={nextLogo} alt='Made With Next JS' />
+                </a>
               </div>
             </div>
           </div>
