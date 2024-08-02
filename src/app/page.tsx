@@ -87,12 +87,14 @@ export default function Home() {
               </div>
               <div>
                 <h3>About</h3>
-                <h2 className='sub-heading'>I'm Eko Bayu. A Frontend Developer, SEO Specialist and problem solver.</h2>
+                <h2 className='sub-heading'>I'm Eko Bayu. A Frontend Developer, SEO Specialist and Mountaineer.</h2>
                 <p>
-                  I'm a passionate front-end developer with a keen understanding of SEO since 2014, dedicated to
-                  building websites that are both visually stunning and highly visible in search results. I combine my
-                  technical skills in HTML, CSS, JavaScript, and NextJS with my SEO knowledge to create user-friendly,
-                  engaging, and search engine-optimized websites that deliver results.
+                  Passionate front-end developer with a keen understanding of SEO since 2014, dedicated to building
+                  websites that are both visually stunning and highly visible in search results. I combine my technical
+                  skills in HTML, CSS, JavaScript, and NextJS with my SEO knowledge to create user-friendly, engaging,
+                  and search engine-optimized websites that deliver results. I like hiking and running on free time to
+                  explore Bali island. Currently working full-time as a Front-end Developer at{' '}
+                  <Link href='https://www.bullseye-digital.com'>Bullseye Digital</Link> in Bali, Indonesia.
                 </p>
               </div>
             </div>
@@ -222,9 +224,9 @@ export default function Home() {
 
             <div className='grid grid-cols-1 gap-10'>
               <div className='made-by-next absolute inset-x-0 bottom-0 h-16'>
-                <a href='https://nextjs.org/'>
+                <Link href='https://nextjs.org/'>
                   Made With <Image width={100} height={24} src={nextLogo} alt='Made With Next JS' />
-                </a>
+                </Link>
               </div>
             </div>
           </div>
