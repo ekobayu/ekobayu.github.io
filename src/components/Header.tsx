@@ -14,8 +14,8 @@ export default function Header() {
         <Image priority src={logo} alt='Eko Bayu Front End Web Developer' />
       </Navbar.Brand>
       <Navbar.Toggle />
-      <Navbar.Collapse>
-        <Navbar.Link href='#home' active className={`${styles.menuItem}`}>
+      <Navbar.Collapse className={`${styles.menuCollapse}`}>
+        <Navbar.Link href='#home' className={`${styles.menuItem}`}>
           Home
         </Navbar.Link>
         <Navbar.Link href='#about' className={`${styles.menuItem}`}>

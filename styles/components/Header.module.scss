@@ -7,8 +7,22 @@
   button {
     background-color: transparent !important;
   }
+  @media (max-width: 768px) {
+    .menuCollapse {
+      min-height: 730px;
+    }
+  }
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .menuCollapse {
+      min-height: auto;
+    }
+  }
   .menuItem {
     @include link-style;
+    @media (max-width: 768px) {
+      width: 100%;
+      text-decoration: none;
+    }
     &:after {
       bottom: -3px;
     }
