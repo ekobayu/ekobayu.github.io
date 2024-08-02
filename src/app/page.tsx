@@ -70,11 +70,15 @@ export default function Home() {
                   <List.Item>CSS</List.Item>
                   <List.Item>Jquery</List.Item>
                   <List.Item>VueJs</List.Item>
+                  <List.Item>ReactJs</List.Item>
                   <List.Item>NextJs</List.Item>
                   <List.Item>Wordpress</List.Item>
+                  <List.Item>Bootstrap CSS</List.Item>
+                  <List.Item>Tailwind CSS</List.Item>
                   <List.Item>Webflow</List.Item>
+                  <List.Item>Firebase</List.Item>
                   <List.Item>Google Tag Manager</List.Item>
-                  <List.Item>SEO</List.Item>
+                  <List.Item>Search Engine Optimization</List.Item>
                 </List>
               </div>
               <div>
