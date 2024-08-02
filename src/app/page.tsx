@@ -64,7 +64,7 @@ export default function Home() {
           <div className='container mx-auto md:mx-24 px-5 md:px-0 my-32 md:my-48'>
             <div className='grid grid-cols-1 md:grid-cols-2 gap-20'>
               <div>
-                <p className='sub-heading'>My Skill</p>
+                <p className='sub-heading'>Skill</p>
                 <List unstyled>
                   <List.Item>HTML</List.Item>
                   <List.Item>CSS</List.Item>
@@ -81,10 +81,10 @@ export default function Home() {
                 <h3>About</h3>
                 <h2 className='sub-heading'>I'm Eko Bayu. A Frontend Developer, SEO Specialist and problem solver.</h2>
                 <p>
-                  I'm a passionate front-end developer with a keen understanding of SEO, dedicated to building websites
-                  that are both visually stunning and highly visible in search results. I combine my technical skills in
-                  HTML, CSS, JavaScript, and NextJS with my SEO knowledge to create user-friendly, engaging, and search
-                  engine-optimized websites that deliver results.
+                  I'm a passionate front-end developer with a keen understanding of SEO since 2014, dedicated to
+                  building websites that are both visually stunning and highly visible in search results. I combine my
+                  technical skills in HTML, CSS, JavaScript, and NextJS with my SEO knowledge to create user-friendly,
+                  engaging, and search engine-optimized websites that deliver results.
                 </p>
               </div>
             </div>
@@ -96,7 +96,7 @@ export default function Home() {
           <div className='container mx-auto md:mx-24 px-5 md:px-0 my-32'>
             <div className='grid grid-cols-1 md:grid-cols-2 gap-20'>
               <div>
-                <p className='sub-heading'>Work</p>
+                <p className='sub-heading'>Selected Work</p>
                 <p>
                   I'm a SEO Specialist and Front-End Developer who builds beautiful, high-performing websites that rank.
                   I combine technical SEO expertise with front-end development skills to craft engaging user experiences

@@ -127,11 +127,37 @@ ul {
   h3 {
     font-family: $primary-font;
     font-size: 37px;
-    margin-bottom: 5px;
+    margin-bottom: 0px;
   }
   p.sub-heading {
     font-size: 32px;
     margin-bottom: 20px;
+  }
+  .work-item {
+    a {
+      display: inline-block;
+      position: relative;
+      color: $secondary-color;
+      &:after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        transform: scaleX(0);
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        background-color: $secondary-color;
+        transform-origin: bottom right;
+        transition: transform 0.25s ease-out;
+      }
+      &:hover {
+        color: $secondary-color;
+        &:after {
+          transform: scaleX(1);
+          transform-origin: bottom left;
+        }
+      }
+    }
   }
 }
 
