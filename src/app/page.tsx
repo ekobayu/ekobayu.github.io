@@ -15,6 +15,7 @@ import { profileImg } from '../assets/profile.js'
 
 export default function Home() {
   const [activeIndex, setActiveIndex] = useState<number>(0)
+
   return (
     <FullpageContainer activeIndex={activeIndex} setActiveIndex={setActiveIndex}>
       <FullpageSection>
@@ -202,6 +203,13 @@ export default function Home() {
                 </p>
                 <p>
                   On the Internet:<br></br>
+                  <Link
+                    id='email-contact'
+                    href='&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#101;&#107;&#111;&#46;&#98;&#97;&#121;&#117;&#46;&#115;&#101;&#111;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;'
+                  >
+                    Email
+                  </Link>
+                  <span>/</span>
                   <Link href='https://id.linkedin.com/in/ekobayu'> LinkedIn</Link> <span>/</span>
                   <Link href='https://x.com/ekobayu_'> X </Link> <span>/</span>
                   <Link href='https://github.com/ekobayu'> Github</Link>
