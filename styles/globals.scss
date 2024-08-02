@@ -102,6 +102,9 @@ ul {
         width: 315px;
         height: 315px;
       }
+      @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+        top: auto;
+      }
     }
   }
 }
@@ -122,6 +125,10 @@ ul {
     font-size: 32px;
     margin-bottom: 40px;
   }
+  .list-skill {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 .section-3 {
@@ -129,6 +136,9 @@ ul {
     font-family: $primary-font;
     font-size: 37px;
     margin-bottom: 0px;
+    @media (max-width: 768px) {
+      font-size: 24px;
+    }
   }
   p.sub-heading {
     font-size: 32px;

@@ -28,8 +28,8 @@ export default function Home() {
             minHeight: '500px'
           }}
         >
-          <div className='container mx-auto px-5 md:px-0 mt-34 md:mt-60'>
-            <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
+          <div className='container mx-auto px-5 lg:px-0 mt-32 lg:mt-60'>
+            <div className='grid grid-cols-1 lg:grid-cols-2 gap-4'>
               <div>
                 <div className='main-title'>
                   <h1>Frontend Developer</h1>
@@ -41,7 +41,7 @@ export default function Home() {
                 </p>
               </div>
               <div
-                className='flex items-center justify-center profile-img md:mt-0 mx-auto mt-10'
+                className='flex items-center justify-center profile-img lg:mt-0 mx-auto mt-10'
                 style={{
                   backgroundImage: `url(${profileRectangle.src})`
                 }}
@@ -62,11 +62,11 @@ export default function Home() {
       </FullpageSection>
       <FullpageSection>
         <div id='about' className='section-2 w-full'>
-          <div className='container mx-auto md:mx-24 px-5 md:px-0 my-32 md:my-48'>
-            <div className='grid grid-cols-1 md:grid-cols-2 gap-20'>
+          <div className='container mx-auto lg:mx-24 px-5 lg:px-0 my-32 lg:my-42'>
+            <div className='grid grid-cols-1 lg:grid-cols-2 gap-20'>
               <div>
                 <p className='sub-heading'>Skill</p>
-                <List unstyled>
+                <List unstyled className='list-skill'>
                   <List.Item>HTML</List.Item>
                   <List.Item>CSS</List.Item>
                   <List.Item>Jquery</List.Item>
@@ -98,8 +98,8 @@ export default function Home() {
       </FullpageSection>
       <FullpageSection>
         <div id='work' className='section-3 w-full'>
-          <div className='container mx-auto md:mx-24 px-5 md:px-0 my-32'>
-            <div className='grid grid-cols-1 md:grid-cols-2 gap-20'>
+          <div className='container mx-auto lg:mx-24 px-5 lg:px-0 my-32'>
+            <div className='grid grid-cols-1 lg:grid-cols-2 gap-20'>
               <div>
                 <p className='sub-heading'>Selected Work</p>
                 <p>
@@ -152,8 +152,8 @@ export default function Home() {
       </FullpageSection>
       <FullpageSection>
         <footer id='contact' className='section-4 w-full'>
-          <div className='container mx-auto md:mx-24 px-5 md:px-0 my-32 md:my-52'>
-            <div className='grid grid-cols-1 md:grid-cols-2 gap-20'>
+          <div className='container mx-auto lg:mx-24 px-5 lg:px-0 my-32 lg:my-52'>
+            <div className='grid grid-cols-1 lg:grid-cols-2 gap-20'>
               <div className='wrapper-circle'>
                 <div className='base'>
                   <div className='circ'></div>
