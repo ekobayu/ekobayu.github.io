@@ -223,7 +223,7 @@ export default function Home() {
             </div>
 
             <div className='grid grid-cols-1 gap-10'>
-              <div className='made-by-next absolute inset-x-0 bottom-0 h-16'>
+              <div className='made-by-next absolute inset-x-0 bottom-0 h-16 mb-10'>
                 <Link href='https://nextjs.org/'>
                   Made With <Image width={100} height={24} src={nextLogo} alt='Made With Next JS' />
                 </Link>
