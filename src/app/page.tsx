@@ -38,7 +38,7 @@ export default function Home() {
                 </div>
                 <p>
                   A results-driven individual with expertise in both front-end development and SEO, passionate about
-                  creating exceptional online experiences that drive traffic and engagement.
+                  creating exceptional online experiences that drive traffic and engagement since 2015.
                 </p>
               </div>
               <div
@@ -89,11 +89,11 @@ export default function Home() {
                 <h3>About</h3>
                 <h2 className='sub-heading'>I'm Eko Bayu. A Frontend Developer, SEO Specialist and Mountaineer.</h2>
                 <p>
-                  Passionate front-end developer with a keen understanding of SEO since 2014, dedicated to building
-                  websites that are both visually stunning and highly visible in search results. I combine my technical
-                  skills in HTML, CSS, JavaScript, and NextJS with my SEO knowledge to create user-friendly, engaging,
-                  and search engine-optimized websites that deliver results. I like hiking and running on free time to
-                  explore Bali island. Currently working full-time as a Front-end Developer at{' '}
+                  Passionate front-end developer with a keen understanding of SEO, dedicated to building websites that
+                  are both visually stunning and highly visible in search results. I combine my technical skills in
+                  HTML, CSS, JavaScript, and NextJS with my SEO knowledge to create user-friendly, engaging, and search
+                  engine-optimized websites that deliver results. I like hiking and running on free time to explore Bali
+                  island. Currently working full-time as a Front-end Developer at{' '}
                   <Link href='https://www.bullseye-digital.com'>Bullseye Digital</Link> in Bali, Indonesia.
                 </p>
               </div>
