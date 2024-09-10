@@ -56,7 +56,7 @@ export default function Home() {
                 />
               </div>
               {/* <AddItem />
-                <ListItems /> */}
+              <ListItems /> */}
             </div>
           </div>
         </div>
