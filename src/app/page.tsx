@@ -120,14 +120,14 @@ export default function Home() {
                   <Link href='https://myeducationrepublic.com'>
                     <h3>Education Republic</h3>
                   </Link>
-                  <p>Web Development</p>
+                  <p>Wordpress Development</p>
                 </div>
 
                 <div className='work-item mb-5'>
                   <Link href='https://soluplus.id'>
                     <h3>Soluplus</h3>
                   </Link>
-                  <p>Web Development</p>
+                  <p>Wordpress Development</p>
                 </div>
 
                 <div className='work-item mb-5'>
@@ -148,7 +148,14 @@ export default function Home() {
                   <Link href='https://teamguan.com'>
                     <h3>Teamguan</h3>
                   </Link>
-                  <p>Web Development</p>
+                  <p>Wordpress Development</p>
+                </div>
+
+                <div className='work-item mb-5'>
+                  <Link href='https://oreo.com.au'>
+                    <h3>Oreo</h3>
+                  </Link>
+                  <p>Webflow Development</p>
                 </div>
               </div>
             </div>
