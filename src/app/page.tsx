@@ -82,6 +82,7 @@ export default function Home() {
                   <List.Item>Webflow</List.Item>
                   <List.Item>Firebase</List.Item>
                   <List.Item>Google Tag Manager</List.Item>
+                  <List.Item>Google Search Console</List.Item>
                   <List.Item>Search Engine Optimization</List.Item>
                 </List>
               </div>
@@ -90,11 +91,11 @@ export default function Home() {
                 <h2 className='sub-heading'>I'm Eko Bayu. A Frontend Developer, SEO Specialist and Mountaineer.</h2>
                 <p>
                   Passionate front-end developer with a keen understanding of SEO, dedicated to building websites that
-                  are both visually stunning and highly visible in search results. I combine my technical skills in
-                  HTML, CSS, JavaScript, and NextJS with my SEO knowledge to create user-friendly, engaging, and search
-                  engine-optimized websites that deliver results. I like hiking and running on free time to explore Bali
-                  island. Currently working full-time as a Front-end Developer at{' '}
-                  <Link href='https://www.bullseye-digital.com'>Bullseye Digital</Link> in Bali, Indonesia.
+                  are both visually stunning and highly visible in search results. <br></br> <br></br>I combine my
+                  technical skills in HTML, CSS, JavaScript, and NextJS with my SEO knowledge to create user-friendly,
+                  engaging, and search engine-optimized websites that deliver results. <br></br> <br></br>I like hiking
+                  and running on free time to explore Bali island. Currently working full-time as a Front-end Developer
+                  at <Link href='https://www.bullseye-digital.com'>Bullseye Digital</Link> in Bali, Indonesia.
                 </p>
               </div>
             </div>
@@ -115,17 +116,24 @@ export default function Home() {
                 </p>
               </div>
 
-              <div>
+              <div className='grid grid-cols-1 lg:grid-cols-2 gap-10'>
                 <div className='work-item mb-5'>
-                  <Link href='https://myeducationrepublic.com'>
-                    <h3>Education Republic</h3>
+                  <Link href='https://printscreen-id.com/'>
+                    <h3>Print Screen</h3>
                   </Link>
                   <p>Wordpress Development</p>
                 </div>
 
                 <div className='work-item mb-5'>
-                  <Link href='https://soluplus.id'>
-                    <h3>Soluplus</h3>
+                  <Link href='https://markdempseysc.com/'>
+                    <h3>Mark Dempsey</h3>
+                  </Link>
+                  <p>Wordpress Development</p>
+                </div>
+
+                <div className='work-item mb-5'>
+                  <Link href='https://culture.maximus.com.au/'>
+                    <h3>Culture Maximus</h3>
                   </Link>
                   <p>Wordpress Development</p>
                 </div>
@@ -145,10 +153,19 @@ export default function Home() {
                 </div>
 
                 <div className='work-item mb-5'>
-                  <Link href='https://teamguan.com'>
-                    <h3>Teamguan</h3>
+                  <Link href='https://tripperhood.com/'>
+                    <h3>Tripperhood</h3>
                   </Link>
-                  <p>Wordpress Development</p>
+                  <p>Search Engine Optimization</p>
+                </div>
+
+                <div className='work-item mb-5'>
+                  <Link href='https://showmetheway.org.au'>
+                    <h3>
+                      Show Me <br></br>The Way
+                    </h3>
+                  </Link>
+                  <p>Webflow Development</p>
                 </div>
 
                 <div className='work-item mb-5'>
