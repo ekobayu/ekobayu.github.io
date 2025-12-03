@@ -33,12 +33,12 @@ export default function Home() {
             <div className='grid grid-cols-1 lg:grid-cols-2 gap-4'>
               <div>
                 <div className='main-title'>
-                  <h1>Frontend Developer</h1>
+                  <h1>Web Developer</h1>
                   <div className='drop'></div>
                 </div>
                 <p>
-                  A results-driven individual with expertise in both front-end development and SEO, passionate about
-                  creating exceptional online experiences that drive traffic and engagement since 2015.
+                  A results-driven individual with expertise in both Web development and SEO, passionate about creating
+                  exceptional online experiences that drive traffic and engagement since 2015.
                 </p>
               </div>
               <div
@@ -88,14 +88,14 @@ export default function Home() {
               </div>
               <div>
                 <h3>About</h3>
-                <h2 className='sub-heading'>I'm Eko Bayu. A Frontend Developer, SEO Specialist and Mountaineer.</h2>
+                <h2 className='sub-heading'>I'm Eko Bayu. A Web Developer, SEO Specialist and Mountaineer.</h2>
                 <p>
-                  Passionate front-end developer with a keen understanding of SEO, dedicated to building websites that
-                  are both visually stunning and highly visible in search results. <br></br> <br></br>I combine my
-                  technical skills in HTML, CSS, JavaScript, and NextJS with my SEO knowledge to create user-friendly,
-                  engaging, and search engine-optimized websites that deliver results. <br></br> <br></br>I like hiking
-                  and running on free time to explore Bali island. Currently working full-time as a Front-end Developer
-                  at <Link href='https://www.bullseye-digital.com'>Bullseye Digital</Link> in Bali, Indonesia.
+                  Passionate web developer with a keen understanding of SEO, dedicated to building websites that are
+                  both visually stunning and highly visible in search results. <br></br> <br></br>I combine my technical
+                  skills in HTML, CSS, JavaScript, and NextJS with my SEO knowledge to create user-friendly, engaging,
+                  and search engine-optimized websites that deliver results. <br></br> <br></br>I like hiking and
+                  running on free time to explore Bali island. Currently working full-time as a Web Developer at{' '}
+                  <Link href='https://lakeba.com'>Lakeba</Link> in Bali, Indonesia.
                 </p>
               </div>
             </div>
@@ -109,8 +109,8 @@ export default function Home() {
               <div>
                 <p className='sub-heading'>Selected Work</p>
                 <p>
-                  I'm a SEO Specialist and Front-End Developer who builds beautiful, high-performing websites that rank.
-                  I combine technical SEO expertise with front-end development skills to craft engaging user experiences
+                  I'm a SEO Specialist and Web Developer who builds beautiful, high-performing websites that rank. I
+                  combine technical SEO expertise with front-end development skills to craft engaging user experiences
                   that drive organic traffic and conversions. Check out my portfolio to see how I can help your business
                   succeed online!
                 </p>
