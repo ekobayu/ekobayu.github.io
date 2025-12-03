@@ -12,23 +12,23 @@ const plusJakartaSans = Plus_Jakarta_Sans({
 })
 
 export const metadata = {
-  title: 'Eko Bayu - Frontend Developer and SEO Specialist',
+  title: 'Eko Bayu - Web Developer and SEO Specialist',
   description:
-    'A results-driven individual with expertise in both front end developer and SEO specialist, passionate about creating exceptional online experiences.'
+    'A results-driven individual with expertise in both web developer and SEO specialist, passionate about creating exceptional online experiences.'
 }
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   const structuredData = {
     '@context': 'https://schema.org/',
     '@type': 'Person',
-    name: 'Eko Bayu Kusumo',
+    name: 'Eko Bayu',
     url: 'https://ekobayu.com',
     image: 'https://avatars.githubusercontent.com/u/4278034?v=4',
     sameAs: 'https://github.com/ekobayu',
-    jobTitle: 'Front End Developer',
+    jobTitle: 'Web Developer',
     worksFor: {
       '@type': 'Organization',
-      name: 'PT Bullseye'
+      name: 'PT Lakeba Tech Indonesia'
     }
   }
 

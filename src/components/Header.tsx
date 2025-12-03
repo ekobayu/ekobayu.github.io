@@ -11,7 +11,7 @@ export default function Header() {
   return (
     <Navbar className={`${styles.wrapperHeader} bg-transparent p-5`}>
       <Navbar.Brand as={Link} href='https://ekobayu.github.io'>
-        <Image priority src={logo} alt='Eko Bayu Front End Web Developer' />
+        <Image priority src={logo} alt='Eko Bayu Web Developer' />
       </Navbar.Brand>
       <Navbar.Toggle />
       <Navbar.Collapse className={`${styles.menuCollapse} mt-5`}>
