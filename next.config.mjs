@@ -3,8 +3,8 @@ const nextConfig = {
   // basePath: '/ekobayu-profile.github.io/',
   output: 'export',
   sassOptions: {
-    includePaths: ['/'],
-    prependData: `@import "/styles/variables.scss"; @import "/styles/mixin.scss";`
+    includePaths: ['/']
+    // prependData: `@import "../variables.scss"; @import "../mixin.scss";`
   }
   // clientRouterFilter: false
   // swcMinify: false,
