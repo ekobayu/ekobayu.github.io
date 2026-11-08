@@ -12,7 +12,7 @@ const plusJakartaSans = Plus_Jakarta_Sans({
 })
 
 export const metadata = {
-  title: 'Eko Bayu - Web Developer and SEO Specialist',
+  title: 'Eko Bayu - Web Developer and SEO Specialist from Bali',
   description:
     'A results-driven individual with expertise in both web developer and SEO specialist, passionate about creating exceptional online experiences.'
 }
@@ -25,11 +25,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
     url: 'https://ekobayu.com',
     image: 'https://avatars.githubusercontent.com/u/4278034?v=4',
     sameAs: 'https://github.com/ekobayu',
-    jobTitle: 'Web Developer',
-    worksFor: {
-      '@type': 'Organization',
-      name: 'PT Lakeba Tech Indonesia'
-    }
+    jobTitle: 'Web Developer'
   }
 
   return (

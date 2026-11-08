@@ -94,8 +94,7 @@ export default function Home() {
                   both visually stunning and highly visible in search results. <br></br> <br></br>I combine my technical
                   skills in HTML, CSS, JavaScript, and NextJS with my SEO knowledge to create user-friendly, engaging,
                   and search engine-optimized websites that deliver results. <br></br> <br></br>I like hiking and
-                  running on free time to explore Bali island. Currently working full-time as a Web Developer at{' '}
-                  <Link href='https://lakeba.com'>Lakeba</Link> in Bali, Indonesia.
+                  running on free time to explore Bali island.
                 </p>
               </div>
             </div>
@@ -153,19 +152,17 @@ export default function Home() {
                 </div>
 
                 <div className='work-item mb-5'>
-                  <Link href='https://tripperhood.com/'>
-                    <h3>Tripperhood</h3>
+                  <Link href='https://innerpeace.id/'>
+                    <h3>Innerpeace</h3>
                   </Link>
-                  <p>Search Engine Optimization</p>
+                  <p>Wordpress Development</p>
                 </div>
 
                 <div className='work-item mb-5'>
-                  <Link href='https://showmetheway.org.au'>
-                    <h3>
-                      Show Me <br></br>The Way
-                    </h3>
+                  <Link href='https://twphotography.id/'>
+                    <h3>TW Photography</h3>
                   </Link>
-                  <p>Webflow Development</p>
+                  <p>Wordpress Development</p>
                 </div>
 
                 <div className='work-item mb-5'>
